@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.goback {
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #282a2d;
+  padding: 10px;
+}
+
+.goback p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.conatiner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+}
+
+.card {
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #282a2d;
+  border-radius: 10px;
+  background-color: #1f1f1f;
+}
+
+.output input {
+  border: none;
+  background-color: #33383f;
+  color: #d3e3fd;
+  font-size: 48px;
+  text-align: right;
+  height: 100px;
+  width: 100%;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.input input {
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  background-color: #282a2d;
+  color: #d3e3fd;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logic {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.logic input {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  background-color: #5ab3f0;
+  color: #282a2d;
+}
+
+.logic input:nth-child(1) {
+  color: #282a2d;
+  background-color: #c4eed0;
+}
+
+.logic input:nth-child(6) {
+  background-color: #d3e3fd;
+  color: #282a2d;
+  grid-row: span 2;
+}

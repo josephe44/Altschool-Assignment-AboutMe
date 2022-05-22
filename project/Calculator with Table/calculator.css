@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.goback {
+  width: 150px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #282a2d;
+  padding: 10px;
+}
+
+.goback p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 20px;
+  width: 300px;
+  border: 1px solid #282a2d;
+  border-radius: 10px;
+  background-color: #1f1f1f;
+}
+
+.output input {
+  border: none;
+  background-color: #33383f;
+  color: #d3e3fd;
+  font-size: 48px;
+  text-align: right;
+  height: 100px;
+  width: 100%;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.calculator {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #33383f;
+  color: #d3e3fd;
+  font-size: 24px;
+  border: none;
+  border-radius: 15px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.plus {
+  height: 120px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator with HTML Table</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/project/Calculator with Table/calculator.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <p>Osuohia</p>
+      </div>
+      <ul class="links">
+        <li><a href="/index.html">About</a></li>
+        <li><a href="/project/project.html" class="project">Project</a></li>
+        <li><a href="/contact/contact.html">Contact</a></li>
+        <li><a href="/register/register.html">Register</a></li>
+        <li><a href="/login/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="goback">
+    <p>
+      <a href="/project/project.html">Go Back To Project</a>
+    </p>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="output">
+        <input type="text" name="text" id="output">
+      </div>
+      <div class="calculator">
+        <table>
+          <tr>
+            <td><button class="btn" id="clear">C</button></td>
+            <td><button class="btn" id="backspace">&larr;</button></td>
+            <td><button class="btn" id="divide">&divide;</button></td>
+            <td><button class="btn" id="percentage">%</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn" id="seven">7</button></td>
+            <td><button class="btn" id="eight">8</button></td>
+            <td><button class="btn" id="nine">9</button></td>
+            <td><button class="btn" id="multiply">&times;</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn" id="four">4</button></td>
+            <td><button class="btn" id="five">5</button></td>
+            <td><button class="btn" id="six">6</button></td>
+            <td><button class="btn" id="subtract">&minus;</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn" id="one">1</button></td>
+            <td><button class="btn" id="two">2</button></td>
+            <td><button class="btn" id="three">3</button></td>
+            <td rowspan="2"><button class="btn plus" id="add">&plus;</button></td>
+          </tr>
+          <tr>
+            <td><button class="btn" id="zero">0</button></td>
+            <td><button class="btn" id="decimal">.</button></td>
+            <td><button class="btn" id="equals">=</button></td>
+          </tr>
+        </table>
+    </div>
+  </div>
+</body>
+</html>
